@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+}
+
+img {
+	width: 370px;
+}
+
+main {
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  width: 1440px;
+  height: 1450px;
+}
+
+ul {
+  display: inline-flex; 
+  list-style-type: none;
+  padding-right: 140px;
+  height: 33px;
+}
+
+li {
+  padding: 0;
+  width: 120px;
+  height: 33px;
+  display: flex;
+}
+
+.a1 {
+  font-size: 20px;
+  font-family: "Anonimous Pro";
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.a2 {
+  font-size: 20px;
+  font-family: "Anonimous Pro";
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social {
+  padding: 23px 140px 25px 0;
+  height: 22.32px;
+}
+
+.container {
+  width: calc(33.3% - 16px);
+  height: 420px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.subtitle {
+  width: 767px;
+  height: 48px;
+  padding: 25px 0 25px 140px;
+}
+
+.container_text, .container_title {
+  padding: 32px 24px 0 24px;
+  color: #121723;
+}
+
+.cross {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  width: 1161px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1440px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 212.34px;
+  height: 63.24px;
+  padding-left: 140px; 
+}
+
+.container_image {
+  border-radius: 12px;
+  height: 262px;
+}
+
+.social {
+  display: flex;
+}
+
+.footer {
+  background: #121723;
+  width: 1440px;
+  height: 142px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 299.65px;
+  height: 22.32px;
+  padding: 25px 0 25px 140px;
+}
+
+.footer-title {
+  color: #a1a6b4;
+  width: 184px;
+  height: 16px;
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  padding-left: 628px;
+}
+
+.line {
+  width: 1160px;
+  height: 0;
+  border: 1px solid #E6E8EC66;
+  padding: 0 139.5px 0 139.5px;
+}
