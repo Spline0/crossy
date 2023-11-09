@@ -1,0 +1,384 @@
+/* подключение локальный шрифтов на страницу */
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* сброс стилей по умолчанию */
+body,h1,h2,h3,p,ul,li {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* задание шрифта всей странице */
+body, html {
+    font-family: "Anonymous Pro", sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* стили для главного контейнера */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F1F1F1;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* стили для хедера(шапки) сайта */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #A1A6B4;
+    background: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 24px 0 24px;
+}
+
+.logo-link {
+    max-width: 215px;
+}
+
+/* стили для ссылок в хедере и футере */
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #121723;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* стили для  */
+.content {
+    margin: 32px 0;
+    max-width: 1140px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+/* стили для контейнера кроссовок */
+.sneakers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 32px 0 0;
+}
+
+/* стили для карточки кроссовок */
+.sneaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 364px;
+    height: 100%;
+    border-radius: 12px;
+    background: white;
+}
+
+.main {
+    display: flex;
+    width: 1140px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #fff;
+    padding: 48px;
+    box-sizing: border-box;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: auto;
+}
+
+
+
+.p {
+    width: 506px;
+    height: 804px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1044px;
+    height: 784px;
+}
+
+.description {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    width: 506px;
+}
+
+.main-des {
+    width: 506px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.dess {
+    display: flex;
+    border-bottom: 1px solid #A1A6B4;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    width: 506px;
+}
+
+.a {
+    font-size: 30px;
+}
+
+
+.card-image {
+    height: 600px;
+    width: 1044px;
+}
+
+.card-info {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-family: 'Anonymous Pro';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-subtitle {
+    font-family: 'Anonymous Pro';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.NB:hover, .Nike:hover, .Converse:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    transform: translate(0, -10px);
+}
+.NB, .Nike, .Converse {
+    transition: transform .25s ease-in-out;
+}
+.sneaker-image {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.sneaker-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121723;
+}
+
+/* стили для футера */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 32px 0;
+}
+
+.footer__logo-link {
+    max-width: 300px;
+    width: 100%;
+}
+
+footer .nav-link {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    border-top: 1px solid #A1A6B4;
+}
+
+.copyright-text {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 350px) {
+
+    .sneaker {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 325px;
+    }
+    .header-container, header, main, html { 
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .subtitle {
+        font-size: 36px;
+        padding: 0;
+    }
+    .footer-content {
+        display: flex;
+        width: 375px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        box-sizing: border-box;
+    }
+    .subtitle {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 350px) {
+    .card-image {
+        width: 295px;
+        height: 172px;
+    }
+    .main, .card {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 360px;
+        padding: 0;
+        align-items: center;
+        height: 1200px;
+    }
+    .p {
+        width: 295px;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        padding: 32.5px 32.5px 0 32.5px;
+    }
+    .card-title {
+        font-size: 32px;
+    }
+    .card-subtitle {
+        font-size: 20px;
+    }
+    .dess {
+        width: 295px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .main {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    body {
+        width: 100%;
+    }
+}
+
