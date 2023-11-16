@@ -34,7 +34,7 @@ a {
 /* задание шрифта всей странице */
 body, html {
     font-family: "Anonymous Pro", sans-serif;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ main {
     flex-direction: column;
     align-items: center;
     background: #F1F1F1;
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 
